@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">cat facts</string>
+    <string name="give_me_more_cat_facts">Give me more cat facts 🙏</string>
+    <string name="i_want_to_leave_i_am_getting_pawddicted">I want to leave i am getting pawddicted. 🚶</string>
+    <string name="cat_facts">Cat Facts</string>
+    <string name="i_want_cat_facts_give_me">I want cat facts, Give Me!!</string>
+    <string name="loader">loader</string>
+</resources>

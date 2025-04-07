@@ -1,0 +1,45 @@
+ext {
+    dependencies {
+        implementation(libs.androidx.core.ktx)
+        implementation(libs.androidx.appcompat)
+        implementation(libs.material)
+        implementation(libs.androidx.ui.text.google.fonts)
+        testImplementation(libs.junit)
+        androidTestImplementation(libs.androidx.junit)
+        androidTestImplementation(libs.androidx.espresso.core)
+        implementation(libs.hilt.android)
+        ksp(libs.hilt.compiler)
+        //logging
+        implementation(libs.timber)
+        //networking
+        implementation(libs.retrofit)
+        implementation(libs.converter.gson)
+        implementation(libs.okhttp)
+        implementation(libs.logging.interceptor)
+        implementation(libs.gson)
+        implementation(libs.androidx.paging.compose)
+        implementation(libs.androidx.hilt.navigation.compose)
+        implementation(libs.timber)
+        implementation(libs.androidx.multidex)
+        implementation(libs.androidx.material.icons.extended)
+        implementation(libs.androidx.navigation.compose)
+        implementation(platform(libs.androidx.compose.bom))
+        implementation(libs.androidx.lifecycle.runtime.ktx)
+        implementation(libs.androidx.ui)
+        implementation(libs.androidx.ui.graphics)
+        implementation(libs.androidx.ui.tooling.preview)
+        implementation(libs.androidx.material3)
+        implementation(libs.androidx.navigation.runtime.ktx)
+
+        implementation(libs.androidx.constraintlayout.compose)
+        implementation(libs.androidx.core.splashscreen)
+        implementation(libs.material)
+        implementation(libs.paperdb)
+
+        implementation(libs.ui.tooling)
+        implementation(libs.androidx.lifecycle.viewmodel.compose)
+        implementation(libs.coil.compose)
+        implementation(libs.coil.gif)
+
+    }
+}
